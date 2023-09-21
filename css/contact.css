@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    font-family: "roboto",sans-serif;
+}
+iframe::before .contact{
+    display: none;
+}
+.contact{
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+}
+.img_banner{
+    width: 100vw;
+    height: 300px;
+}
+.title_banner{
+    position: absolute;
+    top: 20%;
+    left:42%;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1.5px 1px 1px rgb(83, 83, 83);
+}
+.line_contact{
+    width: 100vw;
+    height: 50px;
+    margin-left: 43%;
+
+}
+.title_contact{
+    font-weight: 700;
+    margin-top: 230px;
+    color: #387f05;
+}
+.banner_contact{
+    width: 100vw;
+    height: 100px;
+}
+.content_contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+.item_contact{
+    display: flex;
+    
+}
+.img_contact{
+    width: 70px;
+    margin-right: 10px;
+}
+/* .title_item{
+
+} */
+p{
+    font-size: 17px;
+}
+span{
+    font-weight: 600;
+}
