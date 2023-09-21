@@ -1,0 +1,85 @@
+*{
+    font-family: "roboto",sans-serif;    
+}
+
+.header_content{
+    display: flex;
+    width: 70vw;
+    height: 100px;
+    margin-left: 15vw;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;    
+}
+.title_CuaHang{
+    font-size: 20px;
+    font-weight: 900;
+    color: #387f05;
+}
+.title_TrangChu{
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 40%;
+    color: black;
+}
+.header_right{
+    display: flex;
+}
+.frame_search{
+    border: 2px groove rgb(216, 216, 216);
+    border-radius: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin-left: 10px;
+}
+p{
+    margin-top: 5px;
+}
+.title_next_search{
+    margin-top: 10px;
+}
+.icon_dropdown{
+    width: 25px;
+    height: 25px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    width: 70vw;
+    margin-left: 15vw;
+}
+.product_main{
+    width: 250px;
+    height: 360px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 2px ;
+    box-shadow: 1px 1px 5px  rgb(182, 178, 178);
+
+}
+.container_img_product img{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    transition: all 0.5s ease-in;  
+}
+.container_img_product:hover img.top{
+    opacity: 0;
+}
+.name_product{
+   margin-top: 280px;
+   margin-left: 10px;
+}
+.name_product :hover{
+    color: #387f05;
+}
+.title_name_product{
+    font-size: 20px;
+    font-weight:700;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
